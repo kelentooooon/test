@@ -1,0 +1,322 @@
+body {
+    background-color: #F1F1F1;
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    background-color: #444;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    z-index: 200;
+}
+
+li {
+    list-style: none;
+}
+
+.hsoub-logo {
+    position: relative;
+    margin: -5px 70px;
+    float: right;
+    line-height: 0;
+    overflow: hidden;
+    text-decoration: none;
+    z-index: 100;
+}
+
+.hsoub-logo img {
+    max-height: 36px;
+    border: 0;
+}
+
+
+.right-list {
+    position: absolute;
+    right: 0;
+}
+
+.bars {
+    color: #efefef;
+    font-size: 25px;
+    right: 0;
+    position: absolute;
+    margin-right: 20px;
+}
+
+.box {
+    margin: -16px -35px;
+    position: absolute;
+}
+
+.left-list {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.fa-magnifying-glass,
+.fa-cart-shopping {
+    color: #efefef;
+    transform: translateY(-50%);
+    top: 50%;
+    position: relative;
+}
+
+.button {
+    border: solid #efefef 1px;
+    color: #efefef;
+    background-color: #444;
+    padding: 10px;
+    position: relative;
+}
+
+.i-hover {
+    width: 40px;
+    height: 60px;
+    text-align: center;
+}
+
+.b-hover {
+    height: 60px;
+    align-items: center;
+    display: flex;
+}
+
+.overlay:hover {
+    background-color: rgb(135 135 135);
+}
+
+.bar:hover {
+    background-color: rgb(135 135 135);
+}
+
+.hero {
+    background-image: url(../img/hero-33.jpg);
+    color: #222222;
+    background-size: cover;
+    background-position: center 48%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container-hero {
+    justify-content: center;
+    display: grid;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-35%);
+    position: relative;
+}
+
+.hero-postion {
+    padding-bottom: 50px;
+}
+
+.hero-title {
+    margin-bottom: 40px;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.hero-secondary-title {
+    margin-bottom: 20px;
+}
+
+.hero-form {
+    position: relative;
+    width: 100%;
+    margin: 28px auto -25px;
+    padding: 0;
+}
+
+
+.hero-form .form-control {
+    padding: 0 10px;
+    height: 70px;
+    margin-bottom: 0;
+}
+
+.hero-form .form-control input {
+    font-size: 16px;
+}
+
+.form-control {
+    font-size: 14px;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    margin-bottom: 1.5rem;
+}
+
+.hero-form .btn {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(1%, -50%);
+    height: 53px;
+}
+
+.hero .btn {
+    padding: 15px 30px;
+}
+
+.btn-primary {
+    border-color: #52b035;
+    background: #52b035;
+    color: #fff;
+}
+
+.btn {
+    border-radius: 0;
+    font-size: 16px;
+}
+
+.read-more h5 {
+    color: white;
+    font-size: 15px;
+}
+
+.serv-grid {
+    margin-top: 50px;
+}
+
+.serv-grid h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.serv-grid .grid-img {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.serv-grid .grid-img div {
+    position: relative;
+    padding: 10px;
+}
+
+.serv-grid .grid-img div::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 94%;
+    height: 90%;
+    top: 9px;
+    left: 10px;
+}
+
+.serv-grid img {
+    width: 300px;
+    height: 200px;
+}
+
+.serv-grid .grid-img span {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+
+}
+
+.button-pro {
+    border: solid #52b035 1px;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-right: 700px;
+    color: #52b035;
+}
+
+.button-pro:hover {
+    border: solid white 1px;
+    background-color: #52b035;
+    color: white;
+}
+
+.info-business {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    margin: 50px auto 30px auto;
+}
+
+.grid-business {
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+}
+
+.grid-business div {
+    width: 300px;
+}
+
+.grid-business div img {
+    width: 300px;
+}
+
+.grid-business div h3 {
+    color: #00000099;
+    font-size: 15px;
+}
+
+.grid-business div span {
+    font-weight: 900;
+}
+
+.content {
+    background-color: white;
+    margin-top: 50px;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-menu-title {
+    font-size: 18px;
+}
+
+.footer-menu {
+    padding: 0;
+}
+
+.footer-menu li {
+    padding: 0 0 20px 0;
+}
+
+.footer-menu li a {
+    color: #52b035;
+    text-decoration: none;
+}
+
+.social-media a {
+    padding: 10px;
+}
+
+.social-media svg {
+    display: block;
+}
